@@ -1,0 +1,4 @@
+<div style="width:20px;height:20px;background-color:#ffcc00;">
+  Cześć <%= @user.name %>!
+  Obserwowany przez Ciebie produkt został przeceniony! <%= link_to 'Sprawdź koniecznie', product_detail_url(@product.id, host: "localhost:3000") %>
+</div>
